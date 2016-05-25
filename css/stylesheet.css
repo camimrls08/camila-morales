@@ -1,0 +1,392 @@
+			@import url(//fonts.googleapis.com/css?family=Advent+Pro);
+			
+			body {
+				font-family: "Advent Pro"; 
+				font-size: 1.2em;
+    			color: #937d6b;
+    			background-color:#faf8f9;
+ 
+
+			}
+
+			#container{
+				height: 750px;
+				max-width: 1024px; /* Ancho maximo para que no crezca más de ahi */
+				width: 100%; /* Necesitas que todas las cajas dentro de container esten en % */
+				margin: 0 auto; /*Recuerda que necesitas centralizar todo*/ 
+			} 
+
+    		/*nav*/
+			li {
+			color: #937d6b;
+			float:right;
+			padding-left: 10px;
+			padding-right: 10px;
+			list-style-type: none;
+			position: relative;
+			top:-50px;
+
+
+			}
+
+			a {
+			color: #937d6b;
+			text-decoration: none;
+
+
+			}
+
+			li.navList a:hover {
+			color: #cb7c75;
+			}
+
+			a#selected {
+			color: #cb7c75;
+			font-weight: 500;
+			}
+
+			.search { 
+			padding:6px 15px 6px 30px;
+			margin:3px;
+			background: url('../images/search.png') no-repeat 8px 6px;
+			color: #937d6b;
+			float:right;
+			padding-left: 10px;
+			padding-right: 10px;
+			position: relative;
+			top:-50px;
+			}
+			.rounded { 
+			border-radius:15px; 
+			-moz-border-radius:15px; 
+			-webkit-border-radius:15px; 
+			}
+
+			input[type="text"]{
+			color:#cb7c75;
+			}
+
+
+
+			/*footer*/
+			footer {
+			background-color:#faf8f9;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			text-align: center;
+			margin: 0;
+			z-index: 999;
+			}
+
+			footer p {
+				color: #cb7c75;
+				font-size: .8em;
+			}
+
+			/*CLICk*/
+
+			#main{
+			
+			height:750px; /* Realmente necesitas este alto? */
+			width: 100%;
+			background: url(../images/image1.jpg);
+			font-size: 1em;
+  			}
+
+  			h1 {
+  			font-family: "Advent Pro";
+  			position: relative;
+  			bottom: -230px;
+  			font-size: 1.6em;
+  			right: -100px;
+  			}
+
+  			button{
+  			background-color:#cb7c75;
+  			color:#faf8f9;
+  			bottom: 50px; 
+
+
+  			}
+
+  			/*CONTACT*/
+			h2{
+			color:#cb7c75;
+			text-align: center;
+			margin-top: 150px;
+			font-size: 2em;	
+
+			}
+
+			p{
+			text-align: center;
+			font-size: 1.5em;	
+			}
+
+			#contact {
+			color:#cb7c75;
+			}
+		
+			h3{
+			color:#cb7c75;
+			text-align: center;
+			font-size:1em;
+			margin-top: 100px;
+			}
+			
+			/*hairstyles*/
+			#hairstyles div {
+			width: 4%;	
+			float:left;
+			position:relative;
+			left: -20px;
+			margin:5px;
+			margin-left:75px;
+			margin-bottom:50px;
+			background-color:#937d6b;
+			padding: 5px;
+
+			}
+
+			#hairstyles .col-1 img {
+			width: 299%;
+			height:130%;
+			
+			}
+			
+			#hairstyles .col-2 img {
+			width: 299%;
+			height:130%;
+			}
+
+			#hairstyles .col-3 img {
+			width: 299%;
+			height:130%;
+			}
+
+			#hairstyles .col-4 img {
+			width: 299%;
+			height:130%;
+			}
+
+			#hairstyles .col-5 img {
+			width: 299%;
+			height:130%;
+			}
+
+			#hairstyles .col-6 img {
+			width: 299%;
+			height:130%;
+			}
+			
+			#hairstyles .col-7 img {
+			width: 299%;
+			height:130%;
+			}
+			
+			/*shop*/
+			h4{
+			color:#cb7c75;
+			text-align: center;
+			margin-top: 150px;
+			font-size: 2em
+			}
+
+			#clips div {
+			color:#faf8f9;
+			width: 200px;	
+			float:left;
+			margin-left:100px;
+			background-color:#937d6b;
+			padding:5px;
+			}
+
+			#clips .col-1 img {
+			width: 200px;
+			height:250px;
+			}
+			
+			#clips .col-2 img {
+			width: 200px;
+			height:250px;
+			}
+
+			#clips .col-3 img {
+			width: 200px;
+			height:250px;
+			}
+
+			/*shop2*/
+		    h5{
+
+			text-align: right;
+			color:#cb7c75;
+			margin-top: 150px;
+			font-size: 2em;
+			}
+
+			.col-7 form{
+			align-items: right;
+
+			}
+
+			.col-7 p{
+			text-align:center;
+			font-size: 1em;
+			width: 200px;
+			margin-left: 800px;
+			}
+			.col-8 img{
+			position:relative;
+			top:-350px;
+			
+			right:-130px;
+			height: 540px;
+			width: 350px;
+			background-color:#937d6b;
+			padding:20px
+			}
+
+			/*shop3*/
+		    h6{
+
+			text-align: right;
+			color:#cb7c75;
+			margin-top: 150px;
+			font-size: 2em;
+			}
+
+			.col-9 form{
+			align-items: right;
+
+			}
+
+			.col-9 p{
+			text-align:center;
+			font-size: 1em;
+			width: 200px;
+			margin-left: 800px;
+			}
+			.col-10 img{
+			position:relative;
+			top:-350px;
+			bottom: -500px;
+			right:-130px;
+			height: 540px;
+			width: 350px;
+			background-color:#937d6b;
+			padding:20px
+			}
+
+			/*shop4*/
+		   	
+		   	h7{
+			text-align: right;
+			color:#cb7c75;
+			margin-top: 150px;
+			font-size: 2em;
+			}
+
+			.col-11 form{
+			align-items: right;
+
+			}
+
+			.col-11 p{
+			text-align:center;
+			font-size: 1em;
+			width: 200px;
+			margin-left: 800px;
+			}
+			.col-12 img{
+			position:relative;
+			top:-350px;
+			bottom: -500px;
+			right:-130px;
+			height: 540px;
+			width: 350px;
+			background-color:#937d6b;
+			padding:20px
+			}
+
+			/*why*/
+			h8 {
+			text-align: center;
+			color:#cb7c75;
+			font-size: 2em;
+			position: relative;
+			bottom:-25px;
+			right: -60px;
+			}
+			
+			p{
+			font-size: 1.5em;
+			position: relative;
+			bottom: -6px;
+			}
+			#why div {
+			width: 200px;	
+			float:left;
+			margin-left:100px;
+			text-align: center;
+			}
+			
+			#star {
+			width: 200px;	
+			float:left;
+			margin-left:100px;
+			}
+
+			#star img{
+			position: relative;
+			right: -90px;
+			bottom: -20px;
+			}
+
+			#worldwide {
+			width: 200px;	
+			float:left;
+			margin-left:100px;
+			}
+
+			#worldwide img{
+			position: relative;
+			right: -90px;
+			bottom: -20px;
+			}
+
+			#heart{
+			width: 200px;	
+			float:left;
+			margin-left:100px;
+			}
+
+			#heart img{
+			position: relative;
+			right: -90px;
+			bottom: -20px;
+			}
+
+			@media screen and ([CONDICION]) {
+ /* Nuestras nuevas reglas con este ancho o menos de pantalla */
+}
+			@media screen and (max-width:750px) {
+ /* Nuestras nuevas reglas con este ancho o menos de pantalla */
+}
+			@media screen and (min-width:500px) and (max-width:750px) {
+ /* Nuestras nuevas reglas con este ancho o más de pantalla */
+
+ 			@media screen and (max-width: 750px) {
+			#header ul.menu li ul {display:none}
+			.tinynav { display: block; position:absolute; bottom:5px; width:79%; margin-left:15%}
+}
+
+}
+
+
+@media screen and (max-width:375px) {
+	
+
+}
